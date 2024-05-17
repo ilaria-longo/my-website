@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import "./App.css";
+import MainPage from "./Pages/MainPage/MainPage";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import VFXPage from "./Pages/VFXPage/VFXPage";
+import ColorZenPage from "./Pages/ColorZenPage/ColorZenPage";
+// import { useCallback, useEffect, useState } from "react";
+// import axios from "axios";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/vfx" element={<VFXPage />} />
+        <Route path="/colorzen" element={<ColorZenPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
