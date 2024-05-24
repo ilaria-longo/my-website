@@ -24,38 +24,19 @@ const MainPage = () => {
   return (
     <div>
       <div>
-        <Link className="welcom-page" to="/" />
-        WELCOME TO MY PAGE!
+        <Link className="welcome-page" to="/menu-page" />
       </div>
-      {/* <div>
-        <Link className="main-page" to="/"></Link>
-      </div> */}
-      {/* <NavLink
-        className={`nav-link ${isLinkActive ? "nav-link--active" : ""}`}
-        to="/"
-      ></NavLink>
-      <div className="nav-link">
-        <NavLink
-          className={`nav-link ${
-            location.pathname === "/colorzen" ? "nav-link--active" : ""
-          }`}
-          to="/colorzen"
-        >
-          ColorZen
-        </NavLink>
-      </div>
-
       <div>
         <NavLink
-          className={`nav-link ${
-            location.pathname === "/vfx" ? "nav-link--active" : ""
+          className={`welcome-page ${
+            location.pathnamee === "/menu-page" ? "welcome-page--active" : ""
           }`}
-          to="/vfx"
+          to="/menu-page"
         >
-          VFX
-        </NavLink> */}
+          WELCOME TO MY PAGE!
+        </NavLink>
+      </div>
     </div>
-    // </div>
   );
 };
 
