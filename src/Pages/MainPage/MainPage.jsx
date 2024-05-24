@@ -24,12 +24,13 @@ const MainPage = () => {
   return (
     <div>
       <div>
-        <h1>WELCOME TO MY PAGE!</h1>
+        <Link className="welcom-page" to="/" />
+        WELCOME TO MY PAGE!
       </div>
-      <div>
+      {/* <div>
         <Link className="main-page" to="/"></Link>
-      </div>
-      <NavLink
+      </div> */}
+      {/* <NavLink
         className={`nav-link ${isLinkActive ? "nav-link--active" : ""}`}
         to="/"
       ></NavLink>
@@ -52,9 +53,9 @@ const MainPage = () => {
           to="/vfx"
         >
           VFX
-        </NavLink>
-      </div>
+        </NavLink> */}
     </div>
+    // </div>
   );
 };
 
