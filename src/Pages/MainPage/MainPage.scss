@@ -1,5 +1,20 @@
 @use "../../styles/partials/typography.scss" as *;
+body {
+  background-color: black;
+}
+.welcome-container {
+  a:link {
+    text-decoration: none;
+  }
+  height: 100vh;
+  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-h1 {
-  font-family: "-Regular", sans-serif;
+.welcome-text {
+  color: aliceblue;
+  text-align: center;
 }

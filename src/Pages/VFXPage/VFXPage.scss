@@ -1,17 +1,19 @@
+@use "../../styles/partials/typography.scss" as *;
+
+.title {
+  font-family: "ArchitectsDaughter-Regular";
+}
+
 .video {
-  //   height: auto; // or height: 100%;
   display: flex;
   position: relative;
-  align-content: center;
-  background-color: black;
   height: 100%;
   padding-top: none;
-  //   border-radius: 20px;
 }
+
 .title {
   text-align: center;
   color: aliceblue;
-  background-color: black;
   margin: none;
   padding: none;
 }

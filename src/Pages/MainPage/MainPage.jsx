@@ -24,11 +24,11 @@ const MainPage = () => {
   return (
     <div>
       <div>
-        <Link className="welcome-page" to="/menu-page" />
+        <Link className="welcome-text" to="/menu-page" />
       </div>
-      <div>
+      <div className="welcome-container">
         <NavLink
-          className={`welcome-page ${
+          className={`welcome-text ${
             location.pathnamee === "/menu-page" ? "welcome-page--active" : ""
           }`}
           to="/menu-page"
