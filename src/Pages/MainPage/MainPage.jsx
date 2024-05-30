@@ -17,7 +17,7 @@ const MainPage = () => {
   };
   const isLinkActive =
     location.pathname === "/" ||
-    location.pathname === "/vfx" ||
+    location.pathname === "/demo-reel" ||
     location.pathname === "/colorzen" ||
     location.pathname.includes("/ilaria's-website");
 

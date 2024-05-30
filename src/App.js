@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/menu-page" element={<MenuPage />} />
-        <Route path="/vfx" element={<VFXPage />} />
+        <Route path="/demo-reel" element={<VFXPage />} />
         <Route path="/colorzen" element={<ColorZenPage />} />
       </Routes>
     </BrowserRouter>
