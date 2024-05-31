@@ -1,7 +1,8 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import { Link, NavLink } from "react-router-dom";
 import React, { useState } from "react";
-import MainPage from "../MainPage/MainPage";
+// import MainPage from "../MainPage/MainPage";
+import "./MenuPage.scss";
 
 const MenuPage = () => {
   const location = useLocation();

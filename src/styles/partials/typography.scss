@@ -1,9 +1,24 @@
+// @font-face {
+//   font-family: "ArchitectsDaughter-Regular";
+//   src: url("../../assets/font/Architects_Daughter/ArchitectsDaughter-Regular.ttf")
+//     format(".ttf");
+//   src: url("../../assets/font/Architects_Daughter/ArchitectsDaughter-Regular.woff")
+//     format(".woff");
+//   src: url("../../assets/font/Architects_Daughter/ArchitectsDaughter-Regular.woff2")
+//     format(".woff2");
+// }
+
 @font-face {
-  font-family: "-Regular";
+  font-family: "ArchitectsDaughter-Regular";
   src: url("../../assets/font/Architects_Daughter/ArchitectsDaughter-Regular.ttf")
     format(".ttf");
   src: url("../../assets/font/Architects_Daughter/ArchitectsDaughter-Regular.woff")
-    format(".woff");
+    format("woff");
   src: url("../../assets/font/Architects_Daughter/ArchitectsDaughter-Regular.woff2")
-    format(".woff2");
+    format("woff2");
+}
+
+@font-face {
+  font-family: Clip;
+  src: url("https://acupoftee.github.io/fonts/Clip.ttf");
 }
