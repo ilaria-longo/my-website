@@ -1,4 +1,4 @@
-import Player from "@vimeo/player";
+// import Player from "@vimeo/player";
 import React, { useEffect, useRef } from "react";
 import "./VFXPage.scss";
 
